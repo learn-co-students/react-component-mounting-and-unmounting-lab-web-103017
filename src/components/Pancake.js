@@ -20,7 +20,7 @@ class Pancake extends React.Component {
   }
 
   componentWillUnmount = () => {
-    debugger
+    // console.log(this.interval)
     this.cleanUpInterval()
   }
 
